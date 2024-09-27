@@ -20,7 +20,7 @@ class TrainingConfig:
     save_image_epochs = 1
     save_model_epochs = 30
     mixed_precision = "fp16"  # `no` for float32, `fp16` for automatic mixed precision
-    output_dir = "utmist-workshop-diffusion-1"  # the model name locally and on the HF Hub
+    output_dir = "utmist-workshop-diffusion"  # the model name locally and on the HF Hub
     overwrite_output_dir = True  # overwrite the old model when re-running the notebook
     seed = 0
 
