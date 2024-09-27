@@ -8,7 +8,7 @@ from pathlib import Path
 import torch.nn.functional as F
 import os
 
-@dataclass
+@dataclass(repr=True)
 class TrainingConfig:
     image_size = 128  # the generated image resolution
     train_batch_size = 16
@@ -54,3 +54,8 @@ def create_optimizer_and_lr_scheduler(config,model):
 
 def create_default_config():
      return TrainingConfig()
+
+
+if __name__ == "__main__":
+     config = create_default_config()
+     print(config)
