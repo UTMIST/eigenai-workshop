@@ -17,3 +17,6 @@ Then go to File > Save a Copy in Drive, then you're good to go and start the wor
 ```
 pip install -r requirements.txt
 ```
+
+For our solutions:
+[Solutions](https://colab.research.google.com/drive/1GhKN6Jr4tXsUQAjY8-8G7rby5TYyNTqM?usp=sharing)
